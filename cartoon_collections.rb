@@ -1,10 +1,13 @@
  dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
  planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
- 
+ snacks = ["crackers", "gouda", "thyme"]
 
-
-
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves (array)
+  i=0 
+  while i < array.length 
+  puts "#{array[i]}"
+  i +=1 
+end
  
 end
 
